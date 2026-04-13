@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>haozhe huang</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Georgia", "Times New Roman", serif;
+      background-color: #ffffff;
+      color: #222;
+      line-height: 1.7;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 0 24px;
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+
+    .profile img {
+      width: 180px;
+      height: 220px;
+      object-fit: cover;
+      border: 1px solid #ccc;
+    }
+
+    .profile-text h1 {
+      margin: 0 0 12px 0;
+      font-size: 2.2rem;
+      font-weight: normal;
+      color: #111;
+    }
+
+    .profile-text h2 {
+      margin: 0 0 18px 0;
+      font-size: 1.1rem;
+      font-weight: normal;
+      color: #555;
+    }
+
+    .profile-text p {
+      margin: 8px 0;
+      font-size: 1rem;
+    }
+
+    a {
+      color: #1a4f8b;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .section {
+      margin-top: 36px;
+    }
+
+    .section h3 {
+      font-size: 1.3rem;
+      font-weight: normal;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 8px;
+      margin-bottom: 16px;
+      color: #111;
+    }
+
+    .contact-list {
+      padding-left: 20px;
+    }
+
+    .contact-list li {
+      margin-bottom: 8px;
+    }
+
+    @media (max-width: 700px) {
+      .profile {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .profile img {
+        width: 160px;
+        height: 200px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="profile">
+      <img src="images/photo.jpg" alt="haozhe huang" />
+
+      <div class="profile-text">
+        <h1>haozhe huang</h1>
+        <h2>PhD Student</h2>
+
+        <p>Hello and welcome to my academic homepage.</p>
+        <p>
+          I am <strong>haozhe huang</strong>, and my research interests include
+          artificial intelligence, computational biology, and molecular design.
+        </p>
+        <p>
+          This website presents a brief introduction about me and provides ways
+          to contact me.
+        </p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Contact</h3>
+      <ul class="contact-list">
+        <li>
+          Email:
+          <a href="hhz@tju.edu.cn">your.email@example.com</a>
+        </li>
+        <li>
+          GitHub:
+          <a href="https://github.com/hyian113" target="_blank">github.com/hyian113</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h3>About</h3>
+      <p>
+        My work focuses on the intersection of machine learning and scientific discovery.
+        I am particularly interested in developing computational methods for real-world
+        biomedical and chemical problems.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
